@@ -128,7 +128,7 @@ export default function Home() {
         <Image
           src="/img/hero.jpg"
           alt="Logo"
-          className="w-full h-full object-contain h-full sm:pt-20!"
+          className="w-full h-full object-contain sm:pt-20!"
           width={600}
           height={400}
         />
