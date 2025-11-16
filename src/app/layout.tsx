@@ -7,11 +7,12 @@ import WhatsAppFloat from "@/components/WhatsAppFloat";
 
 export const metadata: Metadata = {
   title: "Toscano Costamagna & Asociados - Estudio Jurídico",
-  description: "Estudio Jurídico especializado en Derecho Laboral, Civil y Penal. 20 años de experiencia.",
+  description:
+    "Estudio Jurídico especializado en Derecho Laboral, Civil y Penal. 20 años de experiencia.",
   icons: {
-    icon: '/img/favicon.png',
-    shortcut: '/img/favicon.png',
-    apple: '/img/favicon.png',
+    icon: "/img/favicon.png",
+    shortcut: "/img/favicon.png",
+    apple: "/img/favicon.png",
   },
 };
 
@@ -22,9 +23,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <head>
-      </head>
-      <body className="antialiased">
+      <head></head>
+      <body className="antialiased overflow-x-hidden">
         <Navbar />
         {children}
         <Scripts />
