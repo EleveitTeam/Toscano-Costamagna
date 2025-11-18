@@ -124,14 +124,74 @@ export default function Home() {
         </div>
       </div> */}
 
-      <div className="hero flex w-full h-full">
+      <div className="hero flex flex-col lg:flex-row items-center justify-center w-full min-h-screen gap-12 lg:gap-0 pt-20!">
         <Image
           src="/img/hero.jpg"
           alt="Logo"
-          className="w-full h-full object-contain sm:pt-20!"
+          className="w-full sm:w-5/6 lg:w-1/2 h-full object-contain "
           width={600}
           height={400}
         />
+        <div className="max-w-[540px]! w-full lg:w-1/2 text-center! lg:text-start!">
+          <div className="flex justify-center justify-content-center">
+            <div className="col-9">
+              <div className="row">
+                <div className="animate-on-scroll">
+                  <h1
+                    className="hero-title text-4xl! text-balance"
+                    style={{
+                      marginBottom: "1rem",
+                      fontWeight: "bold",
+                      lineHeight: "1.2",
+                    }}
+                  >
+                    Estudio Jurídico Toscano, Costamagna & Asociados
+                  </h1>
+                  <h2
+                    className="hero-subtitle"
+                    style={{
+                      fontSize: "1.8rem",
+                      marginBottom: "1rem",
+                      fontWeight: "normal",
+                      color: "#666",
+                    }}
+                  >
+                    Defensa legal clara, cercana y efectiva
+                  </h2>
+                  <p
+                    className="hero-description"
+                    style={{
+                      fontSize: "1.3rem",
+                      lineHeight: "1.6",
+                      marginBottom: "3rem",
+                    }}
+                  >
+                    20 años de especialidad en causas de ART, resolviendo tanto
+                    casos laborales como civiles, comerciales y de familia, con
+                    estrategia, humanidad y resultados.
+                  </p>
+                  <button
+                    className="btn btn-primary hero-button"
+                    style={{
+                      backgroundColor: "#000",
+                      border: "none",
+                      padding: "1rem 2.5rem",
+                      fontSize: "1.2rem",
+                      fontWeight: "bold",
+                      textTransform: "uppercase",
+                      letterSpacing: "1px",
+                      cursor: "pointer",
+                      transition: "all 0.3s ease",
+                    }}
+                    suppressHydrationWarning={true}
+                  >
+                    Consulta Inmediata
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       {/* Sección About - Quiénes Somos */}
